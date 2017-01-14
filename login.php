@@ -1,5 +1,5 @@
 <?php
-    session_start();
+    session_start(); //inicio de sesion
     include_once 'conectarBD.php';
     $user=filter_input(INPUT_POST,'nombre-usuario');//variable que recibe la el usuario
     $pass=filter_input(INPUT_POST,'contrasenia');// variable que recibe la contraseña
