@@ -3,6 +3,7 @@
  include '/php/consultas.php';
  ?>
   <html>
+   <!-- este archivo va en el directorio raiz -->
     <head>
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
