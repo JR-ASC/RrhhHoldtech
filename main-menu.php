@@ -3,12 +3,11 @@
  include '/php/consultas.php';
  ?>
   <html>
-   <!-- este archivo va en el directorio raiz -->
     <head>
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -19,14 +18,14 @@
         <!-- Dropdown Structure -->
         <ul id="dropdown1" class="dropdown-content">
             <li><a href="php/logout.php">Logout<i class="material-icons">power_settings_new</i></a></li>
-            <li><a href="#!">two</a></li>
+            <li><a href="cambiar-password.php">Cambio de Password</a></li>
             <li class="divider"></li>
             <li><a href="#!">three</a></li>
         </ul>
         <!-- Dropdown Structure -->
         <ul id="dropdown2" class="dropdown-content">
             <li><a href="php/logout.php">Logout</a></li>
-            <li><a href="#!">two</a></li>
+            <li><a href="cambiar-password.php">Cambio de Password</a></li>
             <li class="divider"></li>
             <li><a href="#!">three</a></li>
         </ul>
@@ -47,8 +46,8 @@
                 </ul>
 
                 <ul class="tabs tabs-transparent">
-                    <li class="tab"><a href="#test1">Liquidaciones</a></li>
-                    <li class="tab"><a class="active" href="#test2">Horarios</a></li>
+                    <li class="tab"><a class="active" href="#test1">Liquidaciones</a></li>
+                    <li class="tab"><a href="#test2">Horarios</a></li>
                     <li class="tab"><a href="#test3">Calidad</a></li>
                     <li class="tab"><a href="#test4">Asistencia</a></li>
                 </ul>
